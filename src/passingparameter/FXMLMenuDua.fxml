@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="219.0" prefWidth="411.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="passingparameter.FXMLMenuDuaController">
+   <children>
+      <AnchorPane id="AnchorPane" layoutX="10.0" layoutY="10.0" prefHeight="209.0" prefWidth="463.0">
+         <children>
+            <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+            <Label layoutX="69.0" layoutY="51.0" text="Nama" />
+            <Label layoutX="69.0" layoutY="80.0" text="Kelas" />
+            <Label layoutX="69.0" layoutY="106.0" text="No Absen" />
+            <TextField fx:id="nama" layoutX="158.0" layoutY="49.0" />
+            <TextField fx:id="kelas" layoutX="158.0" layoutY="76.0" />
+            <TextField fx:id="absen" layoutX="159.0" layoutY="103.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
